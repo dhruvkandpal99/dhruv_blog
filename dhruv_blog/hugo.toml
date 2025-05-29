@@ -1,0 +1,41 @@
+baseURL = 'https://dhruvkandpal99.github.io/'
+languageCode = 'en-us'
+title = "Dhruv Kandpal's Blog"
+theme = 'anatole'
+
+
+[params]
+title = "Dhruv Kandpal"
+author = "Dhruv Kandpal"
+description = "Pre-Final Year Mech Eng @ IIT Roorkee | UAV Swarms • CFD • Structural Simulation • ML for Physics"
+profilePicture = "images/profile.jpeg"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/dhruv-kandpal-7a265a280/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:dhruvkandpal4@gmail.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

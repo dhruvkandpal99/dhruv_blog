@@ -1,0 +1,4 @@
+[submodule "dhruv_blog/public"]
+	path = dhruv_blog/public
+	url = git@github.com:dhruvkandpal99/dhruvkandpal99.github.io.git
+	branch = main
